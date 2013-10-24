@@ -20,7 +20,7 @@ APP='babystory'
 
 mkdir -vp fakeroot/usr/bin fakeroot/DEBIAN $PYLIB
 
-cp -v "$KW_SRC/babystory.py" fakeroot/usr/bin/
+cp -v "$KW_SRC/babystory-bin" fakeroot/usr/bin/
 cp -rvf "$KW_SRC/babystory" $PYLIB/
 cp -rvf "$KW_SRC/share" fakeroot/usr/share
 
